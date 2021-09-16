@@ -1,0 +1,531 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section-head {
+    background-image: url(../img/hero-bg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    padding-top: 15rem;
+    padding-left: 12rem;
+}
+h3 {
+    font-size: 3rem;
+    font-weight: 100;
+    font-family: 'Arial';
+    
+}
+.h2-head {
+    font-size: 0.8rem;
+    padding-left: 20px;
+}
+.sev-img2 {
+    background-color: inherit;
+    padding: 20px;
+    
+    
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    font-family: 'Arial';
+      
+}
+
+.services1 {
+    display: flex;
+    margin: 10px;
+    
+}
+.services-option {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.our-services {
+    padding: 5rem;
+    text-align: center;
+    background-color: #e2dfdf9d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h6 {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    color: #7e7777;
+    padding: 5px;
+}
+h3 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    padding: 10px;
+}
+.para1 {
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 0.5px;
+    line-height: 25px;
+    margin: 10px;
+}
+.button1 {
+    padding: 16px 25px;
+    background-color: red;
+    color: white;
+    border: 0px;
+    border-radius: 3px;
+    font-size: 0.6rem;
+    margin-bottom: 10px;
+}
+.button1:hover {
+    background-color: rgb(223, 52, 52);
+    color: white;
+}
+.availabilty {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+    
+}
+.row1 {
+
+    padding: 20px 10px;
+}
+.row1 .images {
+    width: 350px;
+    height: 250px;
+    
+}
+.para2 {
+    font-size: 0.9rem;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+.h41 {
+    padding-top: 40px;
+    font-size: 1.6rem;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+}
+.h42 {
+    font-size: 1.6rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    color: red;
+    padding: 10px;
+    padding-bottom: 40px;
+    
+}
+.quality {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #D9D7DC;
+}
+.quality .quality-image {
+    height: 500px;
+    width: 360px;
+}
+.side1 {
+    padding-top: 10rem;
+    padding-left: 40px;
+    text-align: left;
+}
+h4{
+    font-size: 3rem;
+    color: blue;
+    padding: 20px 0px;
+    font-family: 'Cambria';
+}
+.para3 {
+    padding: 20px 0;
+    font-family: 'Cambria', Cochin, Georgia, Times;
+}
+.services {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-left: 15rem;
+}
+.ser-row {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.servi-1 {
+    padding-right: 2.5rem;
+}
+h2 {
+    font-size: 2.5rem;
+    font-family: 'arial';
+}
+h5 {
+    font-size: 1.2rem;
+    font-family: 'arial';
+    padding: 20px 0;
+}
+
+.sev-img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.para4 {
+    font-size: 0.9rem;
+    font-family: 'Arial';
+    font-weight: lighter;
+    font-style: italic;    
+}
+.about-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #104E92;
+    padding: 50px;
+    margin-top: 60px;
+}
+.about {
+    padding: 30px;
+    font-family: 'Arial Narrow', sans-serif;
+}
+.h6-1 {
+    color: white;
+    padding-top: 50px;
+}
+.h3-1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 4rem;
+    color: white;
+    font-weight: normal;
+}
+span {
+    font-weight: 600;
+    line-height: 4rem;
+}
+.serviman {
+    height: 130px;
+    width: 160px;
+    margin: 12px;
+} 
+.to-do {
+    text-align: center;
+    margin: 50px;
+}
+.h5-1 {
+    font-family: 'Arial';
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+.para_5 {
+    font-size: 1.7rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.call-us {
+    padding: 10px;
+}
+.call-0 {
+    background-color: red;
+    color: white;
+    padding: 13px 25px;
+    margin: 10px;
+    border: 0;
+    border-radius: 3px;
+    font-size: 0.6rem;
+    cursor: pointer;
+}
+.call-0:hover {
+    background-color: rgb(235, 68, 68);
+}
+.call {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 12px 35px;
+    border-radius: 3px;
+    font-size: 0.6rem;
+    cursor: pointer;
+}
+
+
+.footer {
+    margin-top: -16px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(49, 47, 47);
+    color: white;
+    font-size: 0.8rem;
+       
+}
+
+.para {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+@media (max-width:375px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    
+    }
+       
+        h1 {
+        font-size: 2rem;
+        font-weight: 700;
+        font-family: 'Arial';
+    }
+    .services1 {
+        display: none;
+    }
+    .our-services {
+        padding: 1rem;
+        text-align: center;
+        background-color: #e2dfdf9d;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    h3 {
+        font-weight: 600;
+        font-size: 1.3rem;
+        padding: 5px;
+    }
+    .para1 {
+        font-family: Arial, Helvetica, sans-serif;
+        word-spacing: 0.5px;
+        line-height: 25px;
+        margin: 10px;
+        font-size: 0.8rem;
+    }
+    .availabilty {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px;
+        
+    }
+    .row1 {
+    
+        padding: 10px 5px;
+    }
+    .row1 .images {
+        width: 250px;
+        height: 180px;
+        
+    }
+    .para2 {
+        font-size: 0.8rem;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+    .h41 {
+        padding-top: 40px;
+        font-size: 1.3rem;
+        padding: 10px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    }
+    .h42 {
+        font-size: 1.1rem;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+        color: red;
+        padding: 10px;
+        padding-bottom: 40px;
+        
+    }
+    .quality {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #D9D7DC;
+    }
+    .services {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        padding-left: 3rem;
+        
+    }
+    .para3 {
+        padding: 20px 0;
+        font-family: 'Cambria', Cochin, Georgia, Times;
+        font-size: 0.7rem;
+    }
+    .para4 {
+        font-size: 0.8rem;
+        font-family: 'Arial';
+        font-weight: lighter;
+        font-style: italic;
+    }
+    .ser-row {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sev-img {
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        border-radius: 50%;
+        
+    }
+    .about-us {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #104E92;
+        padding: 10px;
+        margin-top: 30px;
+        padding-left: 30px;
+    }
+    .about {
+        padding: 15px;
+        font-family: 'Arial Narrow', sans-serif;
+    }
+    .image-container {
+        display: flex;
+        flex-direction: column;
+    }
+    h4-12 {
+        font-size: 1.8rem;
+        font-family: 'Cambria';
+    }
+    .h3_12 {
+        font-size: 2rem;
+        
+    }
+
+    .h3-1 {
+        display: flex;
+        flex-direction: column;
+        font-size: 3rem;
+        color: white;
+        font-weight: normal;
+    }
+    .serviman {
+        height: 200px;
+        width: 280px;
+        margin: 12px;
+    } 
+
+    .call-us {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .h5-1 {
+        font-family: 'Arial';
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+    .para_5 {
+        font-size: 1rem;
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+    
+    .call-0 {
+        background-color: red;
+        color: white;
+        padding: 13px 25px;
+        margin: 10px;
+        border: 0;
+        border-radius: 3px;
+        width: 50%;
+        font-size: 0.6rem;
+        cursor: pointer;
+    }
+    
+    .call {
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+        padding: 12px 35px;
+        border-radius: 3px;
+        width: 50%;
+        font-size: 0.6rem;
+        cursor: pointer;
+    }
+}
+@media (max-width:768px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .section-head {
+        background-image: url(../img/hero-bg.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 150vh;
+        color: white;
+        padding-top: 7rem;
+        padding-left: 1rem;
+    }
+    hr {
+        width: 100%;
+    }
+    h3 {
+        font-size: 2.5rem;
+        font-family: 'Arial';
+    }
+    
+    h1 {
+        font-size: 4rem;
+        font-weight: 700;
+        font-family: 'Arial';
+    }
+    .services-option {
+        margin: 0px;
+    }
+    .our-services {
+        padding: 4.5rem;
+        text-align: center;
+        background-color: #e2dfdf9d;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    h3-12 {
+        font-weight: 600;
+        font-size: 1.5rem;
+        padding: 5px;
+    }
+    .para1 {
+        font-family: Arial, Helvetica, sans-serif;
+        word-spacing: 0.5px;
+        line-height: 25px;
+        margin: 10px;
+        font-size: 0.8rem;
+    }
+    
+    .quality {
+        padding: 30px;
+    }
+   .services {
+        padding: 3rem;
+        padding-left: 3rem;
+   }    
+    
+   
+    .h5-1 {
+        font-family: 'Arial';
+        font-weight: 600;
+        font-size: 1.4rem;
+    }
+    .para_5 {
+        font-size: 1.3rem;
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+    .image-container {
+        display: flex;
+    }
+    
+    
+}
+
